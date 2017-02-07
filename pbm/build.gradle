@@ -1,0 +1,15 @@
+apply plugin: 'java'
+dependencies {
+    compile project(':json')
+    compile 'org.joda:joda-money:0.12'
+    compile 'joda-time:joda-time:2.3'
+    compile files('libs/StartAppInApp-3.5.5.jar')
+    compile files('libs/NativeX-Android-SDK-master/NativeXAndroidSDK-5.5.9/gson-2.3.1.jar')
+    compile files('libs/NativeX-Android-SDK-master/NativeXAndroidSDK-5.5.9/NativeXMonetizationSDK_v5.5.9.jar')
+    compile files('libs/com-etcxvdjaf-dgjnbzmnw296698/com-etcxvdjaf-dgjnbzmnw296698.jar')
+    compile files('libs/revmob-android-sdk-9.2.3/revmob.jar')
+    compile 'com.supersonic.sdk:mediationsdk:6.4.21@jar'
+    compile files('libs/AerServAndroidSDK/aerserv-android-sdk/lib/aerserv-sdk.jar')
+}
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
